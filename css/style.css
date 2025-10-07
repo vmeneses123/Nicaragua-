@@ -1,0 +1,52 @@
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #02079a;
+  padding: 20px;
+  width: 960px;
+  text-align: center;
+  margin: auto;
+}
+
+nav a {
+  color: #d3d2fc;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  color: darkred;
+  font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #02095b;
+    font-size: 36px;
+    font-family: Calibri;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #02095b;
+    font-size: 28px;
+    font-family: Calibri;
+    margin-top: 20px;
+}
+
+h3 {
+ text-align: center;
+    color: #02095b;
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  color:black;
+  font-family: "times new roman", times, serif;
+}
