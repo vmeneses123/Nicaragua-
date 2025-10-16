@@ -1,4 +1,5 @@
 
+/* 1 Gridded Nav */
 nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -9,6 +10,12 @@ nav {
   margin: auto;
 }
 
+
+.main-title {
+  font-size: 2.5em;
+  text-align: center;
+  color: #010465;
+}
 
 nav a {
   color: #bbbaff;
@@ -67,12 +74,14 @@ p {
 
 }
 
+/* Class #2  (not Grid Element) Requirement */
 .highlight {
   color: #413eff;
   font-weight: bold;
 }
 
 
+/* Class #3  (not Grid Element) Requirement */
 .fun-facts {
   text-align: center;
   margin: 40px auto;
@@ -109,6 +118,12 @@ p {
   text-align: center; 
 }
 
+.button-text {
+  font-size: 1.17em; 
+  font-weight: bold;
+  font-family: serif;
+  color: #02095b;
+}
 
 .grid-section {
   margin: 40px auto;
