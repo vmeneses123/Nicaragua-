@@ -1,5 +1,5 @@
 
-// fun facts button 
+// JS interaction requirement #1 fun facts button 
 
 const facts = [
   "Nicaragua has the largest lake in Central America: Lake Nicaragua.",
@@ -25,7 +25,7 @@ button.addEventListener("click", () => {
 });
 
 
-// scroll to top button
+//  JS interaction requirement #2 scroll to top button
 
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 
@@ -45,7 +45,7 @@ scrollTopBtn.addEventListener("click", () => {
 });
 
 
-// image gallery with facts if you click on an image
+// JS interaction requirement #3 image gallery with facts if you click on an image
 
 
 const galleryImages = document.querySelectorAll(".gallery-item img");
